@@ -1,0 +1,30 @@
+{
+  "name": "gamajs",
+  "version": "0.0.1",
+  "description": "Gamajs",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint **/*.js --ignore-pattern node_modules/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webfatorial/gamajs.git"
+  },
+  "keywords": [
+    "Gamajs"
+  ],
+  "author": "webfatorial",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webfatorial/gamajs/issues"
+  },
+  "homepage": "https://github.com/webfatorial/gamajs#readme",
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-gama": "0.0.1"
+  },
+  "eslintConfig": {
+    "extends": "gama"
+  },
+  "dependencies": {}
+}
